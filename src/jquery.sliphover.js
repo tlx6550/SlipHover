@@ -229,6 +229,8 @@
     };
 
     $.fn[pluginName] = function(options) {
+        //为何要这样遍历http://www.cnblogs.com/Wayou/p/jquery_plugin_tutorial.html
+       //为何要这样往dom添加data http://www.runoob.com/jquery/misc_data.html
         this.each(function() {
             if (!$.data(this, "plugin_" + pluginName)) {
                 $.data(this, "plugin_" + pluginName, new SlipHover(this, options));
