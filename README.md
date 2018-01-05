@@ -1,4 +1,4 @@
-
+原初级教程链接==>>http://www.cnblogs.com/Wayou/p/jquery_plugin_tutorial.html
 # SlipHover
 
 SlipHover apply direction aware hover animation for the caption of an image.
